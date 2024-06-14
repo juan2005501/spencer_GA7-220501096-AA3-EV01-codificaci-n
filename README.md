@@ -14,4 +14,4 @@ Bienvenido a la Floristería Luz del Día, donde nuestras flores son más deslum
 
 1. Clona el repositorio en tu máquina local:
    ```sh
-   git clone https://github.com/tu-usuario/floristeria-luz-del-dia.git
+ https://github.com/spenceralejandro10/spencer_GA7-220501096-AA3-EV01-codificaci-n.git
