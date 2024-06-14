@@ -12,6 +12,6 @@ Bienvenido a la Floristería Luz del Día, donde nuestras flores son más deslum
 
 ## Instalación
 
-1. Clona el repositorio en tu máquina local:
-   ```sh
- https://github.com/spenceralejandro10/spencer_GA7-220501096-AA3-EV01-codificaci-n.git
+GA10-220501097-AA6 - Cargar archivos en el sitio de publicación.
+- GA10-220501097-AA6-EV01 archivos cargados en la plataforma de producción.
+ 
