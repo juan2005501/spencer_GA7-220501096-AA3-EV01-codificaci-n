@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #212121;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 2px solid #03A9F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header img {
+    max-width: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: #03A9F4;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #81D4FA;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+section {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #03A9F4;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+}
+
+td img {
+    max-width: 100px;
+    height: auto;
+}
+
+footer {
+    background-color: #212121;
+    width: 100%;
+    padding: 20px;
+    border-top: 2px solid #03A9F4;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a {
+    color: #03A9F4;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #81D4FA;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #03A9F4;
+    border-radius: 10px;
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #03A9F4;
+    border-radius: 5px;
+    background-color: #444;
+    color: #e0e0e0;
+    box-sizing: border-box;
+}
+
+.form-container input[type="submit"] {
+    background-color: #03A9F4;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #0288D1;
+}

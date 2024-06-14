@@ -1,0 +1,26 @@
+# Ignorar archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar directorios de entorno de desarrollo
+node_modules/
+vendor/
+
+# Ignorar archivos de configuración del entorno
+.env
+
+# Ignorar archivos compilados
+*.log
+*.tmp
+
+# Ignorar directorio de cargas de usuario
+uploads/
+
+# Ignorar archivos específicos de IDEs
+*.sublime-project
+*.sublime-workspace
+.idea/
+.vscode/
+
+# Ignorar los archivos de caché
+.cache/
